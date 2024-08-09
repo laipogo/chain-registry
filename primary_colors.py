@@ -24,7 +24,7 @@ def add_primary_color_to_image(image):
 
     png = image["png"]
     png = png.replace(
-        "https://raw.githubusercontent.com/cosmos/chain-registry/master",
+        "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/assetlist.json",
         ".",
     )
 

@@ -1,0 +1,192 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "sofa",
+  "status": "live",
+  "network_type": "mainnet",
+  "website": "https://sofa.org/",
+  "pretty_name": "Sofa",
+  "chain_type": "cosmos",
+  "chain_id": "sofa_8000-1",
+  "bech32_prefix": "sofa",
+  "node_home": "$HOME/.sofad",
+  "daemon_name": "sofa",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "extra_codecs": [
+    "ethermint"
+  ],
+  "slip44": 60,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "asofa",
+        "fixed_min_gas_price": 250000000,
+        "low_gas_price": 20000000000,
+        "average_gas_price": 25000000000,
+        "high_gas_price": 40000000000
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "asofa"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/sofa/sofa",
+    "recommended_version": "v18.1.0",
+    "compatible_versions": [
+      "v18.1.0"
+    ],
+    "cosmos_sdk_version": "cosmos-sdk v0.50.5",
+    "consensus": {
+      "type": "cometbft",
+      "version": "v0.38.6"
+    },
+    "ibc_go_version": "v8.1.1",
+    "binaries": {
+      "linux/amd64": "",
+      "linux/arm64": "",
+      "darwin/amd64": "",
+      "darwin/arm64": "",
+      "windows/amd64": ""
+    },
+    "genesis": {
+      "genesis_url": ""
+    },
+    "versions": [
+      {
+        "name": "v18.1.0",
+        "tag": "v18.1.0",
+        "height": 21209000,
+        "recommended_version": "v18.1.0",
+        "compatible_versions": [
+          "v18.1.0"
+        ],
+        "cosmos_sdk_version": "evmos/cosmos-sdk v0.47.5-evmos.2",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.4"
+        },
+        "ibc_go_version": "7.4.0",
+        "binaries": {
+          "linux/amd64": "",
+          "linux/arm64": "",
+          "darwin/amd64": "",
+          "darwin/arm64": "",
+          "windows/amd64": ""
+        },
+        "next_version_name": ""
+      }
+    ]
+  },
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.png",
+    "svg": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.svg"
+  },
+  "description": "Developers use Sofa as the Ethereum Canary Chain to deploy applications of the future. Get all the functionalities of Ethereum with the power of IBC and Interchain composability.",
+  "peers": {
+    "seeds": [
+      {
+        "id": "355b6758db41f383469ef2ede4bdc05ddbd393ff",
+        "address": "10.233.76.31:26656",
+        "provider": "node0"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "355b6758db41f383469ef2ede4bdc05ddbd393ff",
+        "address": "10.233.76.31:26656",
+        "provider": "node0"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "http://10.233.76.31:26657",
+        "provider": "sofa1"
+      }
+    ],
+    "rest": [
+      {
+        "address": "http://10.233.76.31:1317",
+        "provider": "sofa1"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "grpc.bd.evmos.org:9090",
+        "provider": "evmos.org"
+      }]
+  },
+  "explorers": [
+    {
+      "kind": "ezstaking",
+      "url": "",
+      "tx_page": "",
+      "account_page": ""
+    },
+    {
+      "kind": "mintscan",
+      "url": "",
+      "tx_page": "",
+      "account_page": ""
+    },
+    {
+      "kind": "blockscout",
+      "url": "",
+      "tx_page": ""
+    },
+    {
+      "kind": "ping.pub",
+      "url": "",
+      "tx_page": ""
+    },
+    {
+      "kind": "explorers.guru",
+      "url": "",
+      "tx_page": ""
+    },
+    {
+      "kind": "atomscan",
+      "url": "",
+      "tx_page": "",
+      "account_page": ""
+    },
+    {
+      "kind": "tcnetwork",
+      "url": "",
+      "tx_page": ""
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "",
+      "account_page": ""
+    },
+    {
+      "kind": "Stake Village",
+      "url": "",
+      "tx_page": "",
+      "account_page": ""
+    },
+    {
+      "kind": "🔥STAVR🔥",
+      "url": "",
+      "tx_page": "",
+      "account_page": ""
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.png",
+      "svg": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.svg",
+      "theme": {
+        "primary_color_hex": "#ec4c34"
+      }
+    }
+  ]
+}

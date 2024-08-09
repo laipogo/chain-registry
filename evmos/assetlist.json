@@ -1,0 +1,41 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "sofa",
+  "assets": [
+    {
+      "description": "The native EVM, governance and staking token of the Sofa",
+      "denom_units": [
+        {
+          "denom": "asofa",
+          "exponent": 0
+        },
+        {
+          "denom": "sofa",
+          "exponent": 18
+        }
+      ],
+      "base": "asofa",
+      "name": "Sofa",
+      "display": "sofa",
+      "symbol": "Sofa",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.png",
+        "svg": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.svg"
+      },
+      "coingecko_id": "sofa",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.png",
+          "svg": "https://raw.githubusercontent.com/laipogo/chain-registry/master/sofa/images/sofa.svg",
+          "theme": {
+            "primary_color_hex": "#ec4c34"
+          }
+        }
+      ],
+      "socials": {
+        "website": "https://sofa.org/",
+        "twitter": "https://twitter.com/sofa"
+      }
+    }
+  ]
+}
