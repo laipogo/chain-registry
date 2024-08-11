@@ -11,7 +11,7 @@
   "node_home": "$HOME/.sofad",
   "daemon_name": "sofa",
   "key_algos": [
-    "ethsecp256k1"
+    "secp256k1"
   ],
   "extra_codecs": [
     "ethermint"
